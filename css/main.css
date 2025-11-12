@@ -71,3 +71,16 @@ h1, h2, h3 {
     box-shadow: 2px 2px 15px 2px var(--color-secondary);
     transition: all 0.5s;
 }
+
+
+@media (min-width: 800px) {
+    .item-list {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .item-list section {
+        flex: 0 0 calc(33% - 62px);
+    }
+}
